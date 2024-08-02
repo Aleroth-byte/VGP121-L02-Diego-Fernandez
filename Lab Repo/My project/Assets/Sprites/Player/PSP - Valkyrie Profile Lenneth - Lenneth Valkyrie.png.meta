@@ -126,10 +126,10 @@ TextureImporter:
       name: PSP - Valkyrie Profile Lenneth - Lenneth Valkyrie_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3205
+        x: 15
+        y: 2961
         width: 1393
-        height: 865
+        height: 978
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -32441,6 +32441,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Double_1
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 3997
+        width: 29
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9428f4a9b320ab74383957e7284f72b8
+      internalID: 273572787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3996
+        width: 26
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d773dbc2f9a6364f9e079be53e16565
+      internalID: 1104534552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_3
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 3996
+        width: 26
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35bd7a2f07d12f49bcf2623aec1a069
+      internalID: -408590198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -32452,6 +32515,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Double_1: 273572787
+      Double_2: 1104534552
+      Double_3: -408590198
       Idle: -1658617110
       PSP - Valkyrie Profile Lenneth - Lenneth Valkyrie_0: 888494305
       PSP - Valkyrie Profile Lenneth - Lenneth Valkyrie_1: 1975415576

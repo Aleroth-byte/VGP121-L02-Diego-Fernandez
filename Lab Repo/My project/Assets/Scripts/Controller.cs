@@ -8,9 +8,11 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Animator))]
 
-public class PlayerController : MonoBehaviour
+public class Controller : MonoBehaviour
 {
     private Boolean isGrounded = false;
+
+    private bool doubleJump;
 
 
     //Movement
@@ -81,15 +83,29 @@ public class PlayerController : MonoBehaviour
 
         float hInput = Input.GetAxis("Horizontal");
 
-        rb.velocity = new Vector2(hInput * speed, rb.velocity.y);
-
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (IsGrounded() && !Input.GetButton("Jump"))
         {
-            rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
+            doubleJump = false;
         }
 
+        rb.velocity = new Vector2(hInput * speed, rb.velocity.y);
+
+        if (Input.GetButtonDown("Jump"))
+            if (IsGrounded() || doubleJump)
+            {
+                rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
+
+                doubleJump = !doubleJump;
+
+                if (Input.GetButtonDown("Jump") && !isGrounded)
+                {
+                    anim.SetTrigger("Double");
+                }
+             }
+
+        //Sprite Flipping
         if (hInput != 0) sr.flipX = (hInput > 0);
-        //if (hInput > 0 && sr.flipX || hInput < 0 && !sr.flipX) sr.flipX = !sr.flipX;
+        // if (hInput > 0 && sr.flipX || hInput < 0 && !sr.flipX) sr.flipX = !sr.flipX;
 
         anim.SetFloat("hInput", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);
@@ -113,4 +129,3 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
-
