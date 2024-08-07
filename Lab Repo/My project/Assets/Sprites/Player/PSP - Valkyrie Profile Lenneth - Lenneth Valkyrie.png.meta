@@ -126,8 +126,8 @@ TextureImporter:
       name: PSP - Valkyrie Profile Lenneth - Lenneth Valkyrie_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2961
+        x: 0
+        y: 1989
         width: 1393
         height: 978
       alignment: 7
@@ -32504,6 +32504,111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Attack_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 3443
+        width: 60
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5372c357eeaa5fd4689914df2fe9b43d
+      internalID: -799952349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3445
+        width: 59
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502f6f5679083a34396e9d48705ab92c
+      internalID: 1068635374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_3
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 3446
+        width: 59
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eace890720ac2e479f78a9f4a02eccc
+      internalID: 1457375989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 3445
+        width: 59
+        height: 76
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8acd26f70e8fe4fa8752db69ed278e
+      internalID: 383417113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 3445
+        width: 64
+        height: 77
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab1667c12fbb0b4381e045d804b5f2c
+      internalID: -288806466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -32515,6 +32620,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Attack_1: -799952349
+      Attack_2: 1068635374
+      Attack_3: 1457375989
+      Attack_4: 383417113
+      Attack_5: -288806466
       Double_1: 273572787
       Double_2: 1104534552
       Double_3: -408590198
